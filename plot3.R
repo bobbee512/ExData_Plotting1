@@ -4,8 +4,8 @@
 ## eliminating all but the required data, and saving this data as a .csv file.  Thus
 ## the script begins by loading the .csv file. 
 ##
-## THIS IS THE CODE FOR PLOT2:
-## Plot1.R and the corresponding plot2.png are shown.  Plot2 is a line chart of the global Active Power 
+## THIS IS THE CODE FOR PLOT3:
+## Plot3.R and the corresponding plot3.png are shown.  Plot3 is a line chart of the Energy Sub metering 1, 2, and 3 
 ## over two days (2007-02-02 and 2007-02-02) 
 
 plot3 <- function(){
