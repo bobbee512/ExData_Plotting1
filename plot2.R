@@ -32,10 +32,10 @@ plot2 <- function(){
   consumption$DateTime <- paste(consumption$Date, consumption$Time)
   consumption$DateTime <- strptime(consumption$DateTime, format = "%m/%d/%Y %H:%M:%S")
 
-  head(consumption)
+  ##  head(consumption)
   
-#  par(mfrow = c(1,1))  ## put one graphic on the device
-#  par(mar = c(4, 4, 1, 2)) ## play around with the margins
+  ##  par(mfrow = c(1,1))  ## put one graphic on the device
+  ##  par(mar = c(4, 4, 1, 2)) ## play around with the margins
   
   ## Create line chart and label it
   
