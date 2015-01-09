@@ -31,7 +31,7 @@
 
 ## Create histogram and label it
   
-  hist(consumption$Global_active_power, col = "grey", main = "Global Active Power", xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
+  hist(consumption$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
   
   dev.copy(png, file = "./data/plot1.png")  ## copy my plot to a PNG file
 
