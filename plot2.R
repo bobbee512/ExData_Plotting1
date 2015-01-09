@@ -5,7 +5,7 @@
 ## the script begins by loading the .csv file. 
 ##
 ## THIS IS THE CODE FOR PLOT2:
-## Plot1.R and the corresponding plot2.png are shown.  Plot2 is a line chart of the global Active Power 
+## Plot2.R and the corresponding plot2.png are shown.  Plot2 is a line chart of the global Active Power 
 ## over two days (2007-02-02 and 2007-02-02) 
 
 plot2 <- function(){
