@@ -33,7 +33,7 @@
   
   hist(consumption$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
   
-  dev.copy(png, file = "./data/plot1.png")  ## copy my plot to a PNG file
+  dev.copy(png, file = "./data/plot1.png", width = 480, height = 480, units = "px", pointsize = 12, bg = "transparent")  ## copy my plot to a PNG file
 
   dev.off()   ## Close the PNG device
   
