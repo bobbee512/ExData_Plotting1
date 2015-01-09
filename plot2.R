@@ -43,7 +43,7 @@ plot2 <- function(){
   
   lines(consumption$DateTime, consumption$Global_active_power)
 
-  dev.copy(png, file = "./data/plot2.png")  ## copy my plot to a PNG file
+  dev.copy(png, file = "./data/plot2.png", width = 480, height = 480, units = "px", pointsize = 12, bg = "transparent")  ## copy my plot to a PNG file
   
   dev.off()   ## Close the PNG device
   
